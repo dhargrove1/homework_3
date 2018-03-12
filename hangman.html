@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>Hangman Game</title>
+    <link rel="stylesheet" type="text/css" href="hangman.css">
+</head>
+<body>
+    <div class='topside'> <!-- encloses topside -->
+      <div class='hang-container'>
+        <div class='scaffolding-top'></div>
+        <div class='scaffolding-left'></div>
+    
+        <div class='draw-area'>
+          <div class='rope'></div>
+        </div>
+    
+        <div class='scaffolding-base'></div>
+      </div>
+      <div class='side-container'>
+        <div class='container-title'>Guess A Letter!</div>
+        <div class='input-area'>
+          <input id='letter-input' type='text' maxlength='1'/>
+        </div>
+      </div>
+    
+      <div class='side-container'>
+        <div class='container-title'>Guessed Letters</div>
+        <div id="wrong-letters" class='input-area'></div>
+      </div>
+    
+</body>
+
+</html>
